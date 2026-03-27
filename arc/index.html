@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Advance Reader Copies — AdvanceReads</title>
+  <meta name="description" content="Sign up for free advance reader copies of upcoming thriller, mystery, and suspense novels. Read before launch day, leave an honest review.">
+  <meta property="og:title" content="Get Advance Reader Copies — AdvanceReads">
+  <meta property="og:description" content="Sign up for free advance reader copies of upcoming thriller, mystery, and suspense novels. Read before launch day, leave an honest review.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://advancereads.com/arc/">
+  <meta property="og:image" content="https://advancereads.com/images/og-arc.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@advancereads">
+  <link rel="canonical" href="https://advancereads.com/arc/">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: '#1a1f3a',
+            darknavy: '#0f1225',
+            amber: '#d4a547',
+            cream: '#f5f0e8',
+            warmgray: '#a8a098',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    h1, h2, h3, .font-serif { font-family: 'Cormorant Garamond', Georgia, serif; }
+    .form-input {
+      background-color: rgba(15, 18, 37, 1);
+      border-color: rgba(255, 255, 255, 0.1);
+    }
+    .form-input:focus {
+      border-color: #d4a547;
+      background-color: rgba(15, 18, 37, 1);
+      outline: none;
+    }
+    /* Kit form overrides — transparent background, no border */
+    .formkit-form { background: transparent !important; border: none !important; padding: 0 !important; }
+    .formkit-form [data-style="clean"] { background: transparent !important; border: none !important; }
+    .formkit-fields { background: transparent !important; }
+    .formkit-field input { background: rgba(15, 18, 37, 1) !important; border: 1px solid rgba(255,255,255,0.15) !important; color: #f5f0e8 !important; border-radius: 0.375rem !important; padding: 0.75rem 1rem !important; }
+    .formkit-field input::placeholder { color: rgba(168,160,152,0.5) !important; }
+    .formkit-field input:focus { border-color: #d4a547 !important; outline: none !important; }
+    .formkit-submit { background: #d4a547 !important; color: #0f1225 !important; border: none !important; border-radius: 0.375rem !important; font-weight: 500 !important; padding: 0.75rem 1.5rem !important; }
+    .formkit-submit:hover { opacity: 0.9 !important; }
+    .formkit-guarantee, .formkit-powered-by { color: rgba(168,160,152,0.4) !important; }
+    .formkit-alert-success { background: transparent !important; border: 1px solid rgba(212,165,71,0.3) !important; color: #d4a547 !important; }
+    .formkit-powered-by-convertkit-container, .formkit-subheader, .formkit-header { display: none !important; }
+    .formkit-form [data-style="minimal"] { padding: 0 !important; }
+  </style>
+</head>
+<body class="bg-darknavy text-cream">
+
+  <!-- Nav -->
+  <nav class="border-b border-white/10">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="/" class="font-serif text-2xl font-bold tracking-wide">Advance<span class="text-amber">Reads</span></a>
+      <div class="hidden md:flex gap-8 text-sm text-warmgray">
+        <a href="/series/harken-files/" class="hover:text-cream transition">Series</a>
+        <a href="/arc/" class="hover:text-cream transition">Get ARCs</a>
+        <a href="/about/" class="hover:text-cream transition">About</a>
+      </div>
+      <a href="/arc/" class="text-sm bg-amber/90 text-darknavy px-4 py-2 rounded hover:bg-amber transition font-medium">Read Early</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-navy via-darknavy to-navy opacity-80"></div>
+    <div class="relative max-w-6xl mx-auto px-6 py-24 md:py-32">
+      <div class="max-w-2xl">
+        <h1 class="font-serif text-5xl md:text-6xl font-bold leading-tight mb-6">
+          Read it before<br>anyone else.
+        </h1>
+        <p class="text-warmgray text-lg leading-relaxed mb-8 max-w-lg">
+          Sign up for advance reader copies of upcoming series. You get a free book before launch. We get an honest review. Everybody wins.
+        </p>
+        <div>
+          <a href="#arc-form" class="bg-amber text-darknavy px-8 py-3 rounded font-medium hover:bg-amber/90 transition inline-block">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How ARC Works -->
+  <section class="max-w-4xl mx-auto px-6 py-20">
+    <h2 class="font-serif text-3xl md:text-4xl font-bold text-center mb-12">How ARC Works</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="text-center">
+        <div class="inline-block mb-4">
+          <div class="text-amber text-4xl font-serif font-bold">1</div>
+        </div>
+        <h3 class="font-medium text-lg mb-3">Apply</h3>
+        <p class="text-warmgray text-sm leading-relaxed">Fill out the form below. Pick your genres. We'll confirm your eligibility.</p>
+      </div>
+      <div class="text-center">
+        <div class="inline-block mb-4">
+          <div class="text-amber text-4xl font-serif font-bold">2</div>
+        </div>
+        <h3 class="font-medium text-lg mb-3">Receive</h3>
+        <p class="text-warmgray text-sm leading-relaxed">When a new book is ready, we'll email you a free advance copy. Usually 2–3 weeks before launch.</p>
+      </div>
+      <div class="text-center">
+        <div class="inline-block mb-4">
+          <div class="text-amber text-4xl font-serif font-bold">3</div>
+        </div>
+        <h3 class="font-medium text-lg mb-3">Review</h3>
+        <p class="text-warmgray text-sm leading-relaxed">Read it. Leave an honest review on Amazon by launch day. That's the deal.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- What's Coming Next -->
+  <section class="border-y border-white/10 bg-navy/30">
+    <div class="max-w-4xl mx-auto px-6 py-20">
+      <h2 class="font-serif text-3xl md:text-4xl font-bold mb-6">What's Coming Next</h2>
+      <div class="max-w-2xl">
+        <h3 class="font-medium text-lg mb-3">The Harken Files trilogy by A. R. Kestrel</h3>
+        <p class="text-warmgray mb-6">Three books. Rapid release. April–May 2026. Thriller. Intelligence. Behavioral analysis. Each novel stands alone but together they form a tightly woven arc tracking a covert operation from initiation through reckoning.</p>
+        <a href="/series/harken-files/" class="text-amber hover:text-cream transition font-medium">Learn more about The Harken Files &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Form -->
+  <section class="max-w-3xl mx-auto px-6 py-20" id="arc-form">
+    <h2 class="font-serif text-3xl md:text-4xl font-bold text-center mb-4">Request ARC Access</h2>
+    <p class="text-warmgray text-center mb-12 max-w-lg mx-auto">Fill out the form below. We'll review your application and send you an advance copy when the next book is ready.</p>
+
+    <div class="bg-navy/50 rounded-lg p-8 border border-white/10" style="max-width: 32rem; margin: auto;">
+      <script async data-uid="8fe9bab706" src="https://advancereads.kit.com/8fe9bab706/index.js"></script>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="max-w-3xl mx-auto px-6 py-20">
+    <h2 class="font-serif text-3xl md:text-4xl font-bold mb-12">Frequently Asked</h2>
+
+    <div class="space-y-10">
+      <div>
+        <h3 class="font-medium text-lg mb-3">What's an ARC?</h3>
+        <p class="text-warmgray leading-relaxed">
+          ARC stands for Advance Reader Copy. It's a pre-release version of a book, sent to readers before the official launch date. ARCs help authors gather early reviews, find their first readers, and build momentum for launch day. When you sign up with AdvanceReads, you're joining a community of readers who care about quality fiction and aren't afraid to be honest about what they read.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="font-medium text-lg mb-3">What do you expect from ARC readers?</h3>
+        <p class="text-warmgray leading-relaxed">
+          An honest review on Amazon within 2 weeks of the book's official launch date. That's it. We're not looking for perfect reviews or five-star puff pieces — we're looking for genuine reactions. If you loved it, say so. If parts didn't land, say that too. Honest reviews (good or critical) are what help real readers decide whether a book is right for them.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="font-medium text-lg mb-3">What genres do you publish?</h3>
+        <p class="text-warmgray leading-relaxed">
+          We're starting with thrillers, mysteries, and suspense novels. That's where our first authors and series live. More genres will come as we grow. When you sign up, tell us what you care about — we'll only send you ARCs that match your interests.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="font-medium text-lg mb-3">Is it really free?</h3>
+        <p class="text-warmgray leading-relaxed">
+          Yes. No hidden costs. No surprise fees. No strings beyond the review. We believe the best marketing is a good book in the hands of a reader who'll be honest about it. That's the deal.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="font-medium text-lg mb-3">How often will I hear from you?</h3>
+        <p class="text-warmgray leading-relaxed">
+          Only when there's something worth saying. When a new ARC is available, we'll email you. When a book launches, we'll let you know. We won't spam you with marketing noise or daily newsletters. You can also unsubscribe at any time — no judgment.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="font-medium text-lg mb-3">What if I don't finish the book?</h3>
+        <p class="text-warmgray leading-relaxed">
+          Life happens. If you can't finish a book before launch, just let us know. You won't be blacklisted or charged. We'd rather you be honest than force a review you don't feel confident writing. That said, we do ask that you try — that's the commitment when you request an ARC.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="border-y border-white/10 bg-navy/30">
+    <div class="max-w-3xl mx-auto px-6 py-16 text-center">
+      <h2 class="font-serif text-3xl md:text-4xl font-bold mb-4">Ready to read first?</h2>
+      <p class="text-warmgray mb-8 max-w-lg mx-auto">Join the ARC list. Sign up takes 60 seconds.</p>
+      <a href="#arc-form" class="bg-amber text-darknavy px-8 py-3 rounded font-medium hover:bg-amber/90 transition inline-block">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10 bg-darknavy">
+    <div class="max-w-6xl mx-auto px-6 py-10">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+        <div>
+          <a href="/" class="font-serif text-xl font-bold tracking-wide">Advance<span class="text-amber">Reads</span></a>
+          <p class="text-warmgray text-xs mt-1">New fiction. Read it first.</p>
+        </div>
+        <div class="flex gap-6 text-sm text-warmgray">
+          <a href="/series/harken-files/" class="hover:text-cream transition">The Harken Files</a>
+          <a href="/arc/" class="hover:text-cream transition">Get ARCs</a>
+          <a href="/about/" class="hover:text-cream transition">About</a>
+          <a href="https://x.com/advancereads" class="hover:text-cream transition" target="_blank" rel="noopener">X</a>
+        </div>
+      </div>
+      <p class="text-warmgray/40 text-xs mt-8 text-center">&copy; 2026 AdvanceReads. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

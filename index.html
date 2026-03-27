@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AdvanceReads — New Fiction. Read It First.</title>
+  <meta name="description" content="Discover new thriller, mystery, and suspense series before everyone else. Get advance reader copies and be first to know when new books drop.">
+  <meta property="og:title" content="AdvanceReads — New Fiction. Read It First.">
+  <meta property="og:description" content="Discover new fiction series before everyone else. ARCs, early access, launch-day alerts.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://advancereads.com">
+  <meta property="og:image" content="https://advancereads.com/images/og-home.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@advancereads">
+  <link rel="canonical" href="https://advancereads.com">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: '#1a1f3a',
+            darknavy: '#0f1225',
+            amber: '#d4a547',
+            cream: '#f5f0e8',
+            warmgray: '#a8a098',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    h1, h2, h3, .font-serif { font-family: 'Cormorant Garamond', Georgia, serif; }
+    .cover-hover { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .cover-hover:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,0.4); }
+    /* Kit form overrides */
+    .formkit-form { background: transparent !important; border: none !important; padding: 0 !important; }
+    .formkit-form [data-style="clean"] { background: transparent !important; border: none !important; }
+    .formkit-fields { background: transparent !important; }
+    .formkit-field input { background: rgba(15, 18, 37, 1) !important; border: 1px solid rgba(255,255,255,0.15) !important; color: #f5f0e8 !important; border-radius: 0.375rem !important; padding: 0.75rem 1rem !important; }
+    .formkit-field input::placeholder { color: rgba(168,160,152,0.5) !important; }
+    .formkit-field input:focus { border-color: #d4a547 !important; outline: none !important; }
+    .formkit-submit { background: #d4a547 !important; color: #0f1225 !important; border: none !important; border-radius: 0.375rem !important; font-weight: 500 !important; padding: 0.75rem 1.5rem !important; }
+    .formkit-submit:hover { opacity: 0.9 !important; }
+    .formkit-guarantee, .formkit-powered-by { color: rgba(168,160,152,0.4) !important; }
+    .formkit-alert-success { background: transparent !important; border: 1px solid rgba(212,165,71,0.3) !important; color: #d4a547 !important; }
+    .formkit-powered-by-convertkit-container, .formkit-subheader, .formkit-header { display: none !important; }
+    .formkit-form [data-style="minimal"] { padding: 0 !important; }
+  </style>
+</head>
+<body class="bg-darknavy text-cream">
+
+  <!-- Nav -->
+  <nav class="border-b border-white/10">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="/" class="font-serif text-2xl font-bold tracking-wide">Advance<span class="text-amber">Reads</span></a>
+      <div class="hidden md:flex gap-8 text-sm text-warmgray">
+        <a href="/series/harken-files/" class="hover:text-cream transition">Series</a>
+        <a href="/arc/" class="hover:text-cream transition">Get ARCs</a>
+        <a href="/about/" class="hover:text-cream transition">About</a>
+      </div>
+      <a href="/arc/" class="text-sm bg-amber/90 text-darknavy px-4 py-2 rounded hover:bg-amber transition font-medium">Read Early</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-navy via-darknavy to-navy opacity-80"></div>
+    <div class="relative max-w-6xl mx-auto px-6 py-24 md:py-32">
+      <div class="max-w-2xl">
+        <p class="text-amber text-sm font-medium tracking-widest uppercase mb-4">New fiction. Read it first.</p>
+        <h1 class="font-serif text-5xl md:text-6xl font-bold leading-tight mb-6">
+          Discover your next<br>series before<br>everyone else.
+        </h1>
+        <p class="text-warmgray text-lg leading-relaxed mb-8 max-w-lg">
+          Advance reader copies. Launch-day alerts. No spam, no algorithms — just books worth your time, delivered to your inbox.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="/arc/" class="bg-amber text-darknavy px-8 py-3 rounded font-medium text-center hover:bg-amber/90 transition">Get Early Access</a>
+          <a href="/series/harken-files/" class="border border-cream/20 text-cream px-8 py-3 rounded font-medium text-center hover:border-cream/40 transition">Browse Series</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Series -->
+  <section class="max-w-6xl mx-auto px-6 py-20">
+    <div class="flex items-end justify-between mb-12">
+      <div>
+        <p class="text-amber text-sm font-medium tracking-widest uppercase mb-2">Featured Series</p>
+        <h2 class="font-serif text-3xl md:text-4xl font-bold">The Harken Files</h2>
+      </div>
+      <a href="/series/harken-files/" class="text-warmgray text-sm hover:text-cream transition hidden md:block">View full series &rarr;</a>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Book 1 -->
+      <a href="/book/blind-spot/" class="group">
+        <div class="bg-navy/50 rounded-lg p-6 border border-white/5 hover:border-amber/20 transition">
+          <div class="aspect-[5/8] bg-navy rounded mb-4 overflow-hidden">
+            <img src="/images/covers/blind-spot.jpg" alt="Blind Spot cover" class="w-full h-full object-cover cover-hover">
+          </div>
+          <p class="text-amber text-xs tracking-widest uppercase mb-1">Book 1</p>
+          <h3 class="font-serif text-xl font-bold mb-2 group-hover:text-amber transition">Blind Spot</h3>
+          <p class="text-warmgray text-sm leading-relaxed">She was hired to find the threat. She wasn't told it was already inside.</p>
+        </div>
+      </a>
+      <!-- Book 2 -->
+      <a href="/book/cut-out/" class="group">
+        <div class="bg-navy/50 rounded-lg p-6 border border-white/5 hover:border-amber/20 transition">
+          <div class="aspect-[5/8] bg-navy rounded mb-4 overflow-hidden">
+            <img src="/images/covers/cut-out.jpg" alt="Cut Out cover" class="w-full h-full object-cover cover-hover">
+          </div>
+          <p class="text-amber text-xs tracking-widest uppercase mb-1">Book 2</p>
+          <h3 class="font-serif text-xl font-bold mb-2 group-hover:text-amber transition">Cut Out</h3>
+          <p class="text-warmgray text-sm leading-relaxed">The network didn't disappear. It was designed so you'd stop looking.</p>
+        </div>
+      </a>
+      <!-- Book 3 -->
+      <a href="/book/dead-ground/" class="group">
+        <div class="bg-navy/50 rounded-lg p-6 border border-white/5 hover:border-amber/20 transition">
+          <div class="aspect-[5/8] bg-navy rounded mb-4 overflow-hidden">
+            <img src="/images/covers/dead-ground.jpg" alt="Dead Ground cover" class="w-full h-full object-cover cover-hover">
+          </div>
+          <p class="text-amber text-xs tracking-widest uppercase mb-1">Book 3</p>
+          <h3 class="font-serif text-xl font-bold mb-2 group-hover:text-amber transition">Dead Ground</h3>
+          <p class="text-warmgray text-sm leading-relaxed">The hardest threat to see was standing in the briefing room.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="text-center mt-8 md:hidden">
+      <a href="/series/harken-files/" class="text-warmgray text-sm hover:text-cream transition">View full series &rarr;</a>
+    </div>
+  </section>
+
+  <!-- Email Signup -->
+  <section class="border-y border-white/10 bg-navy/30">
+    <div class="max-w-3xl mx-auto px-6 py-16 text-center">
+      <p class="text-amber text-sm font-medium tracking-widest uppercase mb-3">Stay in the loop</p>
+      <h2 class="font-serif text-3xl font-bold mb-4">New books. No noise.</h2>
+      <p class="text-warmgray mb-8 max-w-lg mx-auto">Get notified when new series launch, when ARCs open up, and when books go on sale. That's it.</p>
+      <!-- Kit Form Embed — replace with your actual Kit form -->
+      <div id="kit-form-home" class="mx-auto bg-navy/50 rounded-lg p-8 border border-white/10" style="max-width: 32rem; margin: auto;">
+        <script async data-uid="d818fd2824" src="https://advancereads.kit.com/d818fd2824/index.js"></script>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="max-w-4xl mx-auto px-6 py-20">
+    <h2 class="font-serif text-3xl font-bold text-center mb-12">How AdvanceReads works</h2>
+    <div class="grid md:grid-cols-3 gap-8 text-center">
+      <div>
+        <div class="text-amber text-3xl font-serif font-bold mb-3">1</div>
+        <h3 class="font-medium mb-2">Sign up for free</h3>
+        <p class="text-warmgray text-sm">Join the list. Pick the genres you care about. We'll only email you about those.</p>
+      </div>
+      <div>
+        <div class="text-amber text-3xl font-serif font-bold mb-3">2</div>
+        <h3 class="font-medium mb-2">Get advance copies</h3>
+        <p class="text-warmgray text-sm">When a new book is ready, ARC readers get it before launch day — free, in exchange for an honest review.</p>
+      </div>
+      <div>
+        <div class="text-amber text-3xl font-serif font-bold mb-3">3</div>
+        <h3 class="font-medium mb-2">Read it first</h3>
+        <p class="text-warmgray text-sm">Launch-day alerts, limited-time pricing, and new series announcements. No spam, no filler.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10 bg-darknavy">
+    <div class="max-w-6xl mx-auto px-6 py-10">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+        <div>
+          <a href="/" class="font-serif text-xl font-bold tracking-wide">Advance<span class="text-amber">Reads</span></a>
+          <p class="text-warmgray text-xs mt-1">New fiction. Read it first.</p>
+        </div>
+        <div class="flex gap-6 text-sm text-warmgray">
+          <a href="/series/harken-files/" class="hover:text-cream transition">The Harken Files</a>
+          <a href="/arc/" class="hover:text-cream transition">Get ARCs</a>
+          <a href="/about/" class="hover:text-cream transition">About</a>
+          <a href="https://x.com/advancereads" class="hover:text-cream transition" target="_blank" rel="noopener">X</a>
+        </div>
+      </div>
+      <p class="text-warmgray/40 text-xs mt-8 text-center">&copy; 2026 AdvanceReads. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

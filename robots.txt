@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Only index the custom domain, not the GitHub Pages URL
+# GitHub Pages respects this automatically when a custom domain is configured
+Sitemap: https://advancereads.com/sitemap.xml

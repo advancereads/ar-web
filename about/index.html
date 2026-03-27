@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — AdvanceReads</title>
+  <meta name="description" content="AdvanceReads helps readers discover new indie fiction in their favorite genres and get early access to upcoming launches. No algorithms, no noise — just books worth your time.">
+  <meta property="og:title" content="About — AdvanceReads">
+  <meta property="og:description" content="Discover new indie fiction and get early access to upcoming launches. No algorithms, no noise — just books worth your time.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://advancereads.com/about/">
+  <meta property="og:image" content="https://advancereads.com/images/og-home.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@advancereads">
+  <link rel="canonical" href="https://advancereads.com/about/">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: '#1a1f3a',
+            darknavy: '#0f1225',
+            amber: '#d4a547',
+            cream: '#f5f0e8',
+            warmgray: '#a8a098',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@300;400;500&display=swap');
+    body { font-family: 'Inter', sans-serif; }
+    h1, h2, h3, .font-serif { font-family: 'Cormorant Garamond', Georgia, serif; }
+  </style>
+</head>
+<body class="bg-darknavy text-cream">
+
+  <!-- Nav -->
+  <nav class="border-b border-white/10">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="/" class="font-serif text-2xl font-bold tracking-wide">Advance<span class="text-amber">Reads</span></a>
+      <div class="hidden md:flex gap-8 text-sm text-warmgray">
+        <a href="/series/harken-files/" class="hover:text-cream transition">Series</a>
+        <a href="/arc/" class="hover:text-cream transition">Get ARCs</a>
+        <a href="/about/" class="text-cream transition">About</a>
+      </div>
+      <a href="/arc/" class="text-sm bg-amber/90 text-darknavy px-4 py-2 rounded hover:bg-amber transition font-medium">Read Early</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="max-w-3xl mx-auto px-6 pt-20 pb-12">
+    <p class="text-amber text-sm font-medium tracking-widest uppercase mb-4">About</p>
+    <h1 class="font-serif text-4xl md:text-5xl font-bold leading-tight mb-6">
+      New indie fiction.<br>Found here first.
+    </h1>
+    <p class="text-warmgray text-lg leading-relaxed max-w-2xl">
+      AdvanceReads is a place to discover new independent authors in the genres you already love — and get early access to their upcoming launches before the rest of the world catches on.
+    </p>
+  </section>
+
+  <!-- What We Do -->
+  <section class="max-w-3xl mx-auto px-6 py-12">
+    <h2 class="font-serif text-2xl md:text-3xl font-semibold mb-8">How it works</h2>
+    <div class="space-y-8">
+      <div class="flex gap-5">
+        <div class="flex-shrink-0 w-10 h-10 rounded-full bg-amber/10 flex items-center justify-center text-amber font-semibold text-sm">1</div>
+        <div>
+          <h3 class="font-serif text-xl font-semibold mb-1">We find the books</h3>
+          <p class="text-warmgray leading-relaxed">We curate new indie fiction across thriller, mystery, suspense, and more — series and standalones from authors who take their craft seriously.</p>
+        </div>
+      </div>
+      <div class="flex gap-5">
+        <div class="flex-shrink-0 w-10 h-10 rounded-full bg-amber/10 flex items-center justify-center text-amber font-semibold text-sm">2</div>
+        <div>
+          <h3 class="font-serif text-xl font-semibold mb-1">You read them early</h3>
+          <p class="text-warmgray leading-relaxed">Sign up for advance reader copies and get books before they publish. Read for free, leave an honest review if you'd like — that's it.</p>
+        </div>
+      </div>
+      <div class="flex gap-5">
+        <div class="flex-shrink-0 w-10 h-10 rounded-full bg-amber/10 flex items-center justify-center text-amber font-semibold text-sm">3</div>
+        <div>
+          <h3 class="font-serif text-xl font-semibold mb-1">No noise, no algorithms</h3>
+          <p class="text-warmgray leading-relaxed">We send occasional emails about new launches in your genres. That's the whole model. No spam, no social media churn, no pay-to-play rankings.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="max-w-3xl mx-auto px-6"><div class="border-t border-white/10"></div></div>
+
+  <!-- For Authors -->
+  <section class="max-w-3xl mx-auto px-6 py-16">
+    <h2 class="font-serif text-2xl md:text-3xl font-semibold mb-4">Are you an indie author?</h2>
+    <p class="text-warmgray leading-relaxed mb-6">
+      We're exploring ways to help independent authors reach readers who are genuinely looking for their next series. If you write genre fiction and want to be in the loop as we figure this out, drop your email below — no commitment, no obligations. If we build something that could help your next launch, we'll reach out.
+    </p>
+    <div class="bg-navy/50 border border-white/10 rounded-lg p-6 max-w-md">
+      <p class="text-sm text-warmgray mb-4">Get notified if we open this up to authors.</p>
+      <!-- Placeholder: replace YOUR_AUTHOR_INTEREST_FORM_ID with Kit form ID if/when created -->
+      <form action="https://app.kit.com/forms/YOUR_AUTHOR_INTEREST_FORM_ID/subscriptions" method="post" class="flex flex-col sm:flex-row gap-3">
+        <input type="email" name="email_address" placeholder="you@example.com" required
+          class="flex-1 bg-darknavy border border-white/15 text-cream rounded px-4 py-2.5 text-sm placeholder:text-warmgray/50 focus:border-amber focus:outline-none">
+        <button type="submit"
+          class="bg-amber/90 text-darknavy px-5 py-2.5 rounded text-sm font-medium hover:bg-amber transition whitespace-nowrap">
+          Stay in the loop
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="max-w-3xl mx-auto px-6"><div class="border-t border-white/10"></div></div>
+
+  <!-- CTA -->
+  <section class="max-w-3xl mx-auto px-6 py-16 text-center">
+    <h2 class="font-serif text-2xl md:text-3xl font-semibold mb-4">Ready to find something new?</h2>
+    <p class="text-warmgray mb-8">Browse our current catalog or sign up for advance reader copies.</p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="/series/harken-files/" class="bg-amber/90 text-darknavy px-6 py-3 rounded font-medium hover:bg-amber transition">Browse Series</a>
+      <a href="/arc/" class="border border-white/20 text-cream px-6 py-3 rounded font-medium hover:border-amber/40 transition">Get ARCs</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10 bg-darknavy">
+    <div class="max-w-6xl mx-auto px-6 py-10">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+        <div>
+          <a href="/" class="font-serif text-xl font-bold tracking-wide">Advance<span class="text-amber">Reads</span></a>
+          <p class="text-warmgray text-xs mt-1">New fiction. Read it first.</p>
+        </div>
+        <div class="flex gap-6 text-sm text-warmgray">
+          <a href="/series/harken-files/" class="hover:text-cream transition">The Harken Files</a>
+          <a href="/arc/" class="hover:text-cream transition">Get ARCs</a>
+          <a href="https://x.com/advancereads" class="hover:text-cream transition" target="_blank" rel="noopener">X</a>
+        </div>
+      </div>
+      <p class="text-warmgray/40 text-xs mt-8 text-center">&copy; 2026 AdvanceReads. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
